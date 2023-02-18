@@ -107,7 +107,7 @@ const Login = () => {
             </div>
           </div>
           {/* Div two */}
-          <div className="bg-rose-100 w-full flex flex-col  ">
+          <div className="bg-rose-100 flex flex-col  ">
             <form
               onSubmit={handleSubmit}
               className="bg-white mx-auto  px-[40px] py-[64px] mt-[47px] rounded-[12px] shadow-[0_4px_25px_rgba(102,102,102,0.2)]"
@@ -146,9 +146,14 @@ const Login = () => {
                   placeholder="000000000"
                 />
               </div>
-              <button className="bg-[#1CC578] font-[700] text-[16] w-full mt-[56px] h-[65px] rounded-[40px] text-white px-[225px] py-[18px]">
+              <div className="flex flex-col mt-[26px] text-[16px] leading-[25px]">
+                <button className="bg-[#1CC578] font-[700] text-[16]   h-[65px] rounded-[40px] text-white ">
+                  Login
+                </button>
+              </div>
+              {/* <button className="bg-[#1CC578] font-[700] text-[16] w-full mt-[56px] h-[65px] rounded-[40px] text-white px-[225px] py-[18px]">
                 Login
-              </button>
+              </button> */}
             </form>
           </div>
           {/* Div two end */}
