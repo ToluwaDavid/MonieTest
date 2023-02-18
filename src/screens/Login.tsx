@@ -1,4 +1,4 @@
-import React, { useState, useContext, useEffect } from "react";
+import React, { useState, useContext } from "react";
 import { LoginContext } from "../App.tsx";
 import money from "../assets/money.png";
 import frame1 from "../assets/frame1.png";

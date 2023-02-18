@@ -71,10 +71,10 @@ const Dashboard = () => {
             </div>
           </div>
           {/* Div 2 */}
-          <div className="ml-[25px] mt-[17px] md:w-1/3 sm:w-full bg-[#F7F7F7] rounded-[12px] mx-[43px] ">
+          <div className="ml-[25px] mt-[17px]  md:w-1/3 sm:w-full sm:justify-content-center sm:content-center bg-[#F7F7F7] rounded-[12px] mx-[43px] ">
             <div className="h-[490px] ">
               <div>
-                <p className="mt-[81px] ml-[24px] bg-[#FEEBEE] rounded-[30px] h-[34px] w-[141px] flex">
+                <p className="mt-[81px] sm:mt-12 ml-[24px] bg-[#FEEBEE] rounded-[30px] h-[34px] w-[141px] flex">
                   <span className="align-middle p-1">
                     <img src={timer} alt="timer" />
                   </span>
@@ -92,11 +92,11 @@ const Dashboard = () => {
                 />
               </div>
               {/* Div 3 */}
-              <div>
+              <div className="p-2">
                 <p className="text-center font-[600] text-[#1A1A1A] text-[24px] leading-[37px] tracking-[-0.2px] mt-[24px]">
                   📫 Notifications
                 </p>
-                <p className="text-center text-[#595959] w-[307px] mx-auto font-[400] text-[18px] leading-[25px] tracking-[0.3px]">
+                <p className="text-center text-[#595959] p-2 w-[307px] mx-auto font-[400] text-[18px] leading-[25px] tracking-[0.3px]">
                   Receive notifcations about your rider performance, efficiency
                   reviews and a lot more
                 </p>
